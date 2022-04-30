@@ -1,25 +1,48 @@
+body{background-color:#000000}
+
 div header{
+    font-family:verdana;
+    list-style-type: none;
     background-color:#800000;
     color:#ffffff;
-    margin:0;
+    margin:0 auto;
     padding:0;
     text-align:center;
+    }
+
+h3{
+    text-align:center;
+    font-family: arial;
+    color:#800000;
+    padding:10px;
+    margin:5px;
 }
 
+h5{
+    text-align:left;
+    font-family: arial;
+    color:#888888;;
+    padding:10px;
+    margin:5px;
+    }
+
 #divprincipal{
-    width:79%;
+    width:85%;
     margin:0 auto;
+    background-color:#000000;
 }
 
 #divbanner{
     width:100%;
-    height:400px;
-    background-image: url("../images/banner.jpg");
+    height:500px;
+    background-image: url("../images/baner.jpg");
 }
 
 #navtopo{
+    font-family:arial;
     background-color:#800000;
     color:#ffffff;
+    text-align:center;
 }
 
 #navtopo ul {
@@ -49,27 +72,56 @@ div header{
     color:#00401A;
 }
 
+#navtopo h3{
+    color:#ffffff;
+    font-weight:bold;
+}
+
 #divcentro{
-  
+    width:48%;
+    float:left;
+}
+
+#umesquerda{
+    display:block;
     width:100%;
-}
-
-#esquerda{
-    width:65%;
-    float:left;
     text-align:justify;
+    font-family:arial;
+    color:#ffffff;
 }
 
-#esquerda img {
-    width: 50%;
-    height:200px;
-    float:left;
+#umesquerda img {
+    width: 100%;
+    display:block;
+    height:300px;
+    }
+
+#doisesquerda{
+    width:100%;
+    text-align:justify;
+    display:block;
+    font-family:arial;
+    color:#ffffff;
 }
 
-#direita{
-    width:35%;
+#doisesquerda img {
+    width:100%;
+    height:400px;
+}
+
+#tresesquerda{
+    width:100%;
+    text-align:justify;
+    font-family:arial;
+    color:#ffffff;
+    }
+
+#lado{
     float:right;
-    text-align:center;
+    width:48%;
+    text-align:justify;
+    font-family:arial;
+    color:#ffffff;
 }
 
 footer{
